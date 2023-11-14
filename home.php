@@ -15,8 +15,8 @@ if(!isset($_SESSION['id'])){
     $sesLvl = $_SESSION [ 'level'];
 
     //chart data
-    $data_penjualan = mysqli_query($koneksi,"SELECT totalpembayaran FROM penjualan");
-    $label = mysqli_query($koneksi,"SELECT id_penjualan FROM penjualan");
+    // $data_penjualan = mysqli_query($koneksi,"SELECT totalpembayaran FROM penjualan");
+    // $label = mysqli_query($koneksi,"SELECT id_penjualan FROM penjualan");
     
     
 ?>
